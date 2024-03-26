@@ -26,3 +26,5 @@ public class Student1 {
     @JoinColumn(name = "student_foreign_key",referencedColumnName = "id")
     private Laptop1 laptop1;
 }
+
+

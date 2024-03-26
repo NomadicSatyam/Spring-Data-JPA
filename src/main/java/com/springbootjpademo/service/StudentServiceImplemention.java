@@ -35,6 +35,9 @@ public class StudentServiceImplemention implements StudentService {
     @Override
     public ResponseEntity<List<Student>> getAllStudent() {
         List<Student> students = studentRepository.findAll();
+
+
+
         return ResponseEntity.ok(students);
     }
 }
